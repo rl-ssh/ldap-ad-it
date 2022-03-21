@@ -86,6 +86,20 @@ sAMAccountName: test
 userPassword: secret
 memberOf: admin
 
+dn: uid=bukowsky,ou=users,dc=wimpi,dc=net
+objectClass: top
+objectClass: person
+objectClass: inetOrgPerson
+objectClass: simulatedMicrosoftSecurityPrincipal
+objectCategory: User
+cn: Charles Bukowsky
+sn: bukowsky
+uid: bukowsky
+sAMAccountName: bukowsky
+userprincipalname: bukowsky@post.office
+userPassword: secret
+memberOf: admin
+
 dn: ou=roles,dc=wimpi,dc=net
 objectclass: top
 objectclass: organizationalUnit
